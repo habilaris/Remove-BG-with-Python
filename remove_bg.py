@@ -25,7 +25,7 @@ def remove_background_pil(input_path, output_path):
 
 if __name__ == "__main__":
     # Method 1: Using file paths directly
-    remove_background("input_images/input_image.jpg", "output_images/output_image.png")
+    remove_background("input_images/input_image.png", "output_images/output_image.png")
     
     # Method 2: Using PIL (optional)
-    # remove_background_pil("input_images/input_image.jpg", "output_images/output_image.png")
+    # remove_background_pil("input_images/input_image.png", "output_images/output_image.png")
